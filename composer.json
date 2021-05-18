@@ -1,0 +1,24 @@
+{
+  "name": "bagaswh/monolog-fluentbit",
+  "description": "Fluent Bit handler for Monolog",
+  "homepage": "https://github.com/bagaswh/monolog-fluentbit",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bagas Wahyu Hidayah",
+      "email": "bagaswh99@gmail.com"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "monolog/monolog": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bagaswh\\MonologFluentBit\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
